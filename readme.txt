@@ -12,7 +12,7 @@ To run this project one should go through the following setup instructions:
   imblearn - pip install imblearn
   autocorrect - pip install autocorrect
 5.) The project folder consists of two files which were :
-    NLP_project_Naive-Bayes-Classifier.ipynb   ( this file has Naive Bayes approach)
-    NLP_project_DeepLearning.ipynb             (this file has deep learning approach)
+    Naive-Bayes-Classifier.ipynb   ( this file has Naive Bayes approach)
+    DeepLearning.ipynb             (this file has deep learning approach)
 
 6.) Make sure you have the slang.txt file which has frequent short words used by poeple in social networking platforms (it is included in the project folder)
