@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/mainpage.css') }}">
+	
+</head>
+  </head>
+  <body>
+	<div class="bg"></div>
+    <h1>Emotion Detection System</h1>
+	<p>'happiness','sadness','anger','love'</p>
+	
+    <form action = "http://localhost:5000/predict" method = "POST">
+         <h2>Please enter Emotional Text <input type = "text" name = "feature_array" /></h2>
+		 <h3><input onclick="submit()" type = "submit" value = "submit" /></h3>
+      </form>
+	  
+	<script>
+function submit() {
+  /*Put all the data posting code here*/
+ document.getElementById("myForm").reset();
+}
+</script>
+  </body>
+</html>
